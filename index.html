@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BT-DOM</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- bài 1- TÍNH TIỀN LƯƠNG NHÂN VIÊN -->
+    <div class="container">
+      <h1>Tính lương nhân viên</h1>
+      <div class="form-group">
+        <label for="soNgayLam"> số ngày làm việc </label>
+        <input
+          type="text"
+          name=""
+          id="soNgayLam"
+          class="form-control"
+          placeholder=" HÃY NHẬP SỐ NGÀY LÀM VIỆC"
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for=""> lương 1 ngày </label>
+        <option value="luong1Ngay">100,000</option>
+      </div>
+
+      <button class="btn btn-warning" id="btn1">TÍNH TIỀN LƯƠNG NV</button>
+      <div class="mt-2 bg-dark text-white p-3" id="ketQua1"></div>
+    </div>
+
+    <!-- bài 2- TÍNH GIÁ TRỊ TRUNG BÌNH -->
+    <div class="container">
+      <h1>Tính giá trị trung bình</h1>
+      <div class="form-group">
+        <label for="N1">Number 1</label>
+        <input
+          type="text"
+          name=""
+          id="N1"
+          class="form-control"
+          placeholder="HÃY NHẬP SỐ THỨ 1"
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="N2">Number 2</label>
+        <input
+          type="text"
+          name=""
+          id="N2"
+          class="form-control"
+          placeholder="HÃY NHẬP SỐ THỨ 2"
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="N3">Number 3</label>
+        <input
+          type="text"
+          name=""
+          id="N3"
+          class="form-control"
+          placeholder="HÃY NHẬP SỐ THỨ 3"
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="N4">Number 4</label>
+        <input
+          type="text"
+          name=""
+          id="N4"
+          class="form-control"
+          placeholder="HÃY NHẬP SỐ THỨ 4"
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="N5">Number 5</label>
+        <input
+          type="text"
+          name=""
+          id="N5"
+          class="form-control"
+          placeholder="HÃY NHẬP SỐ THỨ 5"
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="btn2">TÍNH GIÁ TRỊ TB</button>
+      <div id="ketQua2" class="p-3 bg-dark text-white mt-5"></div>
+    </div>
+
+    <!-- bài 3: QUY ĐỔI TIỀN TỆ  -->
+
+    <div class="container">
+      <h2>QUY ĐỔI TỪ USD- VND</h2>
+      <div class="form-group">
+        <label for="Tg_usd"> SỐ TIỀN USD </label>
+        <option>23,500</option>
+      </div>
+
+      <div class="form-group">
+        <label for="Tg_vnd"> SỐ TIỀN VND </label>
+        <input
+          type="text"
+          name=""
+          id="Tg_vnd"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-info" id="btn3">TÍNH GIÁ QUY ĐỔI </button>
+      <div id="ketQua3" class="p-3 bg-dark text-white mt-5"></div>
+    </div>
+
+    <!-- bài 4 - TÍNH DIỆN TÍCH, CHU VI HCN -->
+
+    <div class="container">
+        <h2>TÍNH DIỆN TÍCH, CHU VI HCN</h2>
+        <div class="form-group">
+          <label for="chieuDai"> CHIỀU DÀI </label>
+          <input type="text" name="" id="chieuDai" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+
+        <div class="form-group">
+          <label for="chieuRong"> CHIỀU RỘNG </label>
+          <input type="text" name="" id="chieuRong" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+
+        <button class="btn btn-danger " id="btn4"> TÍNH DIỆN TÍCH , CHU VI HCN  </button>
+        <div id="ketQua4" class="p-3 bg-dark text-white mt-5" ></div>
+    </div>
+
+
+    <!-- bài 5: TÍNH TỔNG 2 KÝ SỐ -->
+
+    <div class="container mt-3">
+        <h2>TÍNH TỔNG 2 KÝ SỐ </h2>
+        <div class="form-group">
+          <label for="so"> SỐ </label>
+          <input type="text" name="" id="so" class="form-control" placeholder="HÃY NHẬP SỐ CÓ 2 CHỮ SỐ " aria-describedby="helpId">
+        </div>
+
+        <button class="btn btn-primary" id="btn5"> TÍNH TỔNG 2 KÝ SỐ </button>
+        <div id="ketQua5" class="p-3 bg-dark text-white mt-3"></div>
+    </div>
+
+
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- MAIN JS  -->
+    <script src="./index.js"></script>
+  </body>
+</html>
